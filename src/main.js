@@ -3,6 +3,9 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
+import router from "./route.js"
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  el: '#app',
+  router,  // 注入到根实例中
+  render: h => h(App)
+})
