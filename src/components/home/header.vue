@@ -42,7 +42,8 @@
 <style scoped>
 .header {
   width: 100%;
-  margin: 0 auto 30px;
+  /* 我这里并不是想居中 所以auto无效， */
+  margin: 0 0 30px;
   display: flex;
   box-shadow: 0px 6px 5px #dddbdb;
 }
@@ -55,13 +56,6 @@
 }
 .left-header div {
   width: 100px;
-}
-.middle-header {
-  height: 100px;
-  width: 150px;
-  line-height: 100px;
-  display: flex;
-  justify-content: space-around;
 }
 .right-header {
   height: 100px;
