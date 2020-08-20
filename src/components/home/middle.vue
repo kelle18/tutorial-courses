@@ -72,11 +72,18 @@ img {
   width: 200px;
 }
 h1 {
-  font-size: 20px;
+  padding-right: 8px;
+  font-size: 25px;
+  border-right: 3px solid black;
+}
+.shiZhan1 p {
+  padding-left: 8px;
 }
 .shiZhan2 {
   height: 25px;
   line-height: 25px;
-  border-right: 3px solid black;
+}
+.shiZhan1 {
+  margin-top: 10px;
 }
 </style>
