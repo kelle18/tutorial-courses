@@ -61,6 +61,7 @@ h1 {
 img {
   height: 150px;
   width: 250px;
+  border-radius: 8px;
 }
 /* .sstt1 {
   height: 150px;
@@ -87,5 +88,11 @@ img {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
+}
+.xueXu1:nth-child(1) {
+  margin-left: 10px !important;
+}
+.xueXu1:nth-child(4) {
+  margin-right: 10px !important;
 }
 </style>

@@ -34,11 +34,14 @@
           <div class="line" v-for="(item,index) in centerList" :key="index">
             <div class="t1">标题1</div>
             <div class="t2">标题222222222222222222222</div>
-            <div>2020-08-06 9:16:15</div>
+            <div class="t3">2020-08-06 9:16:15</div>
           </div>
         </div>
       </div>
       <div class="right">
+        <div class="qianduan">
+          <h1>前端工具</h1>
+        </div>
         <div class="first">
           <div class="one" v-for="(item,index) in items" :key="index">
             <img :src="item.imgSrc" />
@@ -162,13 +165,13 @@ export default {
 }
 .left {
   width: 300px;
-  height: 600px;
+  height: 500px;
 
   border: 1px solid green;
 }
 .center {
   width: 550px;
-  height: 600px;
+  height: 500px;
   /* display: flex; */
 
   border: 1px solid green;
@@ -181,9 +184,16 @@ export default {
 }
 .line .t1 {
   width: 100px;
+  margin-left: -40px;
   text-align: right;
   border-right: 1px solid #333;
   padding-right: 10px;
+}
+.line .t3 {
+  margin-right: 15px;
+}
+.line {
+  margin-bottom: 16px;
 }
 .center1 {
   display: flex;
@@ -199,7 +209,7 @@ export default {
 }
 .right {
   width: 200px;
-  height: 600px;
+  height: 500px;
 
   border: 1px solid green;
 }
@@ -219,6 +229,7 @@ h1 {
 }
 .qianduan {
   margin-bottom: 15px;
+  margin-left: 5px;
 }
 .one1 {
   flex: 1;

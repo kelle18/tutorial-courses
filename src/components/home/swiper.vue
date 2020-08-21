@@ -132,6 +132,7 @@
       </div>
       <div class="imgList">
         <img
+          class="first"
           src="https://tse2-mm.cn.bing.net/th/id/OIP.7uCkVcryBNI29E9C73wMSAHaEZ?w=278&h=180&c=7&o=5&pid=1.7"
           alt
         />
@@ -144,58 +145,12 @@
           alt
         />
         <img
+          class="last"
           src="https://tse2-mm.cn.bing.net/th/id/OIP.7uCkVcryBNI29E9C73wMSAHaEZ?w=278&h=180&c=7&o=5&pid=1.7"
           alt
         />
       </div>
     </div>
-    <!-- <div class="right">
-      <div class="rightTop">
-        <div class="rightTop1">
-          <div>
-            <router-link to="/home">
-              <p>视频</p>
-            </router-link>
-          </div>
-          <div>
-            <router-link to="/home">
-              <p>手册</p>
-            </router-link>
-          </div>
-          <div>
-            <router-link to="/home">
-              <p>直播</p>
-            </router-link>
-          </div>
-        </div>
-        <div class="liangDa">
-          <div>
-            <router-link to="/home">
-              <div class="jiShu">
-                <div>
-                  <p>技术文章</p>
-                </div>
-                <div class="jiShu1">
-                  <p>旧</p>
-                </div>
-              </div>
-            </router-link>
-          </div>
-          <div>
-            <router-link to="/home">
-              <div class="wenDang">
-                <div>
-                  <p>文档工具</p>
-                </div>
-                <div class="wenDang1">
-                  <p>旧</p>
-                </div>
-              </div>
-            </router-link>
-          </div>
-        </div>
-      </div>
-    </div>-->
   </div>
 </template>
 <script>
@@ -318,6 +273,7 @@
   height: 70px;
   width: 260px;
   background-color: rgb(141, 133, 133);
+  border-bottom-left-radius: 8px;
 }
 .Development div {
   margin-left: 10px;
@@ -337,7 +293,7 @@
 }
 .ImgBox {
   width: 100%;
-  height: 450px;
+  height: 400px;
 }
 .ImgBox img {
   width: 100%;
@@ -351,6 +307,15 @@
   justify-content: space-between;
 }
 .imgList img {
-  width: 100px;
+  margin-top: 10px;
+  width: 180px;
+  height: 130px;
+  border-radius: 8px;
+}
+.first {
+  margin-left: 15px;
+}
+.last {
+  margin-right: 15px;
 }
 </style>

@@ -40,7 +40,7 @@ export default {
 <style scoped>
 .box {
   width: 1080px;
-  height: 450px;
+  height: 550px;
   margin: 0 auto;
   margin-top: 40px;
   border: 1px solid red;
@@ -61,8 +61,9 @@ h1 {
   padding-left: 8px;
 }
 img {
-  height: 150px;
+  height: 170px;
   width: 250px;
+  border-radius: 8px;
 }
 /* .sstt1 {
   height: 150px;
@@ -75,10 +76,11 @@ img {
 }
 .jiaoCheng1:nth-child(1) {
   width: 400px !important;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .jiaoCheng1 img {
   width: 100%;
+  height: 220px;
 }
 
 .jiaoCheng1 {
@@ -87,11 +89,34 @@ img {
   width: 250px;
 }
 .jiaoCheng2 {
-  margin-top: 20px;
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
 }
 .jiaoCheng3 {
   text-align: center;
+}
+.jiaoCheng1:nth-child(1) {
+  margin-left: 10px !important;
+  width: 450px !important;
+  border-radius: 8px;
+}
+.jiaoCheng1:nth-child(2) {
+  width: 280px !important;
+}
+.jiaoCheng1:nth-child(3) {
+  margin-right: 10px !important;
+  width: 280px !important;
+}
+.jiaoCheng1:nth-child(1) {
+  margin-left: 10px !important;
+  width: 450px !important;
+  border-radius: 8px;
+}
+.jiaoCheng3:nth-child(1) {
+  margin-left: 10px !important;
+}
+.jiaoCheng3:nth-child(4) {
+  margin-right: 10px !important;
 }
 </style>

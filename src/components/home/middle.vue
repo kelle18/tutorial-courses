@@ -23,7 +23,7 @@ export default {
         {
           // 不知道
           imgSrc:
-            "https://img.php.cn/upload/study/000/000/001/5c0b7de4357e6814.png",
+            "https://img.php.cn/upload/study/000/000/003/5c19b24f88b30191.jpeg",
           text: "Vue.js开发基础教程",
         },
         {
@@ -63,13 +63,15 @@ export default {
 }
 .shiZhan4 {
   height: 150px;
-  width: 200px;
+  width: 250px;
   text-align: center;
   overflow: hidden;
 }
 img {
-  height: 100px;
-  width: 200px;
+  height: 120px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 h1 {
   padding-right: 8px;
@@ -85,5 +87,11 @@ h1 {
 }
 .shiZhan1 {
   margin-top: 10px;
+}
+.shiZhan4:nth-child(1) {
+  margin-left: 10px !important;
+}
+.shiZhan4:nth-child(4) {
+  margin-right: 10px !important;
 }
 </style>
