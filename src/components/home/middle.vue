@@ -70,8 +70,7 @@ export default {
 img {
   height: 120px;
   width: 100%;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 8px;
 }
 h1 {
   padding-right: 8px;
