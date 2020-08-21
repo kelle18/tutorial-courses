@@ -44,6 +44,7 @@ export default {
 <style scoped>
 .bottom {
   width: 1080px;
+  width: 100%;
   height: 250px;
   margin: 0 auto;
   margin-top: 40px;
@@ -68,5 +69,11 @@ export default {
 .six img {
   height: 110px;
   width: 110px;
+}
+.one {
+  margin-left: 30px;
+}
+.six {
+  margin-right: 180px;
 }
 </style>

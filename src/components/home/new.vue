@@ -30,7 +30,7 @@ export default {
     return {
       //   sstt: [1, 2, 3],
       items: [{}, {}, {}, {}],
-      list: [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
+      list: [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
     };
   },
 };
@@ -83,11 +83,14 @@ img {
 }
 .liangJie1 {
   margin-top: 10px;
+  margin-left: 10px;
 }
 .liangJie2 {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .xueXu1:nth-child(1) {
   margin-left: 10px !important;
